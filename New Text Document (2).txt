@@ -1,0 +1,27 @@
+
+
+import java.util.Scanner;
+
+public class javaPractice {
+
+	
+	public static void main(String[] args) {
+		
+Scanner sc=new Scanner(System.in);System.out.println("enter a,b,c of quadratic equation like ax^2+ bx +c");
+System.out.println("enter a");
+double a=sc.nextDouble();
+System.out.println("enter b");
+double b=sc.nextDouble();
+System.out.println("enter c");
+double c=sc.nextDouble();
+double z=(b*b)-(4.0)*a*c;
+double  d= Math.sqrt(z);
+double  answer= (((-b)+(d))/(2.0)*a);
+double result= (((-b)-(d))/(2.0)*a);
+System.out.println("roots are "+answer);
+System.out.println("roots are "+result);
+
+
+}
+
+}

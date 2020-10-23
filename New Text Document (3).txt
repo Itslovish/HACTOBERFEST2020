@@ -1,0 +1,17 @@
+public class ifElse {
+
+
+	public static void main(String[] args) {
+	
+int noofpetals=5;
+if(noofpetals %2 ==0) {
+	System.out.println("yes");
+} else{
+	System.out.println("no");
+}
+
+
+		
+	}
+
+}
